@@ -9,8 +9,8 @@ export const UPDATE_PRODUCT = 'update_product';
 
 const ROOT_URL = 'http://127.0.0.1:8000/products/';
 const AUTH_ROOT = 'http://127.0.0.1:8000/api-token/';
-const USER = 'danne';
-const PASS = 'adminLYL';
+const USER = 'USERNAME';
+const PASS = 'USERPASSWORD';
 const AUTH = 'Authorization: JWT ';
 const DATA = JSON.stringify({
   password: PASS,
